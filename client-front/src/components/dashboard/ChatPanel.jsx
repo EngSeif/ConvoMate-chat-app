@@ -272,7 +272,7 @@ function Chat() {
                         {(
                             <>
                                 {messages.map((message) => {
-                                    if (message.senderId === authUser._id) {
+                                    if (message.senderId === authUser?._id) {
                                         return <SendMessage key={message._id} message={message} ref={messageEndRef} />;
                                     } else {
                                         return <ReceiveMessage key={message._id} message={message} ref={messageEndRef} />;

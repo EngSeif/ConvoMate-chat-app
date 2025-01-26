@@ -7,6 +7,9 @@
  * 
  * @returns {JSX.Element} A section displaying the team members with their details and social media links.
  */
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 const TeamSection = () => {
     // Array of team member data including name, title, image, and social links
     const teamMembers = [

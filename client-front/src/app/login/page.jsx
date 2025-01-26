@@ -28,9 +28,9 @@ function Login() {
         checkAuth();
     }, [])
 
-    if (authUser) {
-        router.push(`/dashboard/${authUser._id}`)
-    }
+    // if (authUser) {
+    //     router.push(`/dashboard/${authUser._id}`)
+    // }
 
 
     const HandleChangeEmail = (e) => {

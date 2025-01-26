@@ -28,10 +28,6 @@ function Home() {
         checkAuth()  // Check if the user is authenticated
     }, [])
 
-    // If authUser is not found, trigger a 404 page
-    if (!authUser) {
-        notFound()
-    }
 
     // JSX structure for the layout of the dashboard
     return (
