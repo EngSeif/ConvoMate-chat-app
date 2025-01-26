@@ -1,0 +1,32 @@
+/** ===== Login Div ===== **/
+
+.logDiv {
+  @apply w-full h-screen flex text-white;
+}
+
+/** ===== Image Div ===== **/
+
+.ImgDiv {
+    @apply flex-1 lg:flex justify-center items-center hidden;
+}
+
+/** ===== Form Styles ===== **/
+
+.FormDiv {
+  @apply h-full bg-[#27AE60] flex justify-center flex-1 items-center;
+}
+
+.formStyle {
+  @apply flex flex-col gap-3 justify-start;
+}
+.inputDiv {
+  @apply flex items-center gap-3 border-b-2 py-2 px-4 bg-white rounded-lg text-black;
+}
+.inputStyle {
+  @apply grow focus:border-none bg-transparent focus:outline-none text-black;
+}
+.submitClass {
+  @apply bg-white text-[#27AE60] rounded-lg py-1 my-3 cursor-pointer font-semibold;
+  @apply border-solid border-white border-2;
+  @apply hover:bg-transparent hover:text-white duration-100;
+}

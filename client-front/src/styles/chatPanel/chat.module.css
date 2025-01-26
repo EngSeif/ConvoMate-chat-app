@@ -1,0 +1,3 @@
+.ChatMessagesBg {
+    @apply bg-[url('/images/Doodles-pattern.png')]  bg-repeat w-full h-screen bg-center ;
+}

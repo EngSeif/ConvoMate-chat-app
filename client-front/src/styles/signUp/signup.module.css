@@ -1,0 +1,40 @@
+/** ===== SignUp Div ===== **/
+
+.signUpDiv {
+  @apply w-full h-screen flex text-white;
+}
+
+/** ===== Image Div ===== **/
+
+.ImgDiv {
+  @apply lg:w-[40%] lg:flex justify-center items-center hidden;
+}
+
+/** ===== Form Div ===== **/
+
+.FormDiv {
+  @apply w-full lg:w-[60%] h-full bg-[#27AE60] flex justify-center items-center;
+}
+
+.FormStyle {
+  @apply flex gap-4 flex-col justify-start;
+}
+
+.labelDiv {
+  @apply flex-col flex w-[40%] justify-between h-[150px];
+}
+
+.InputDiv {
+  @apply flex-col flex w-[60%] gap-2 justify-between;
+}
+
+.inputStyle {
+  @apply w-full bg-white rounded-md px-2 py-1 text-black;
+  @apply focus:border-none  focus:outline-none;
+}
+
+.submitStyle {
+  @apply bg-white text-[#27AE60] rounded-lg py-1 my-3 cursor-pointer font-semibold; 
+  @apply border-solid border-white border-2;
+  @apply hover:bg-transparent hover:text-white duration-100;
+}
